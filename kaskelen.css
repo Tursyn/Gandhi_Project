@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+}
+a{
+  text-decoration:none;
+}
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+  height: 80vh;
+  overflow-x: hidden;
+}
+
+.header{
+  display: block;
+  background-color: #727bba;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.heading{
+  padding-left: 115px; 
+  color:#cb7;
+}
+.head{
+  color:#fff;
+  font-weight: 400;
+}
+
+.nav-bar{
+  display: flex;
+  padding: 20px;
+  flex-direction: row; 
+  list-style: none;  
+
+}
+
+.link{
+  padding: 100px;
+  color:blue;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.link:hover {
+  color:red; 
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("https://studykazakhstan.com/uploads/images/universities/1538557576uQj843kE.jpg");
+}
+
+.slide2 {
+  background-image: url("2.jpg");
+}
+
+.slide3 {
+  background-image: url("1.jpg");
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
+
+form-method{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.section{
+  text-align: center;
+  display: block;
+}
+.section h1{
+  font-size: 55px;
+  font-family: SharpSansDisplayNo1,sans-serif;
+  font-weight: 200;
+  color: #727bba;
+  padding-top: 20px;
+}
+.flex-block{
+  display: inline-flex;
+}
+.flex-block li{
+  padding-right:30px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  list-style: none;
+  font-weight: 700;
+}
+.images{
+ display: inline-flex;
+ float: left;
+
+}
+.img1{
+  height: 400px;
+  width: 200px;
+  border-right:1px solid grey;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  margin-right: 15px;
+  margin-left: 15px;
+
+}
+.img1 a{
+  color:purple;
+  text-decoration: none;
+}
+
+.ftr{
+  height: 500.2px;
+  width: 100%;
+  background: #727bba;
+}
+.ftr-content{
+  max-width: 1000px;
+  height: 150px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.ftr-content h2{
+  color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 1.2;
+
+}
+.ftr-content p{
+  font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+    line-height: 2.2;
+    margin-top: 0;
+    font-weight: 400;
+}
+.ftr-content a{
+  color: #fff;
+    margin-right: 40px;
+}
+#colorlib{
+  margin-right: 0px;
+  color: #fff;
+  text-decoration: none;
+  
+}
+#last-text{
+  color: #212529;
+  font-size: 20px;
+}
